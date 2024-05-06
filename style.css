@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+
+.box{
+    height: 100vh;
+    background-image: url("./img/Vector.png"),url("./img/Vector1.png");
+    background-repeat: no-repeat;
+    background-position: right top,left bottom ;
+    background-size: 20%,40%;
+}
+.ota img{
+    width: 550px;
+    height: 509px;
+    gap: 0px;
+    opacity: 5px;
+  
+    
+}
+.div-kotta{
+    display: flex;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+ul{
+    display: flex ;
+    gap: 30px;
+    list-style: none;
+}
+.soya{
+    background-color:white;
+    box-shadow: -5px -5px 5px 5px rgb(3, 254, 3);
+    height: 133px;
+    width: 133px;
+
+}
+.s1{
+    background-color:white;
+    box-shadow: -5px -5px 5px 5px rgb(221, 226, 221);
+    height: 133px;
+    width: 133px;
+}
+.s2{
+    background-color: white ;
+    box-shadow: 3px 3px 5px 5px #00000026 ;
+    height: 133px;
+    width: 133px;
+
+} 
+.s3{
+    background-color: white;
+    box-shadow: -3px 3px 5px 5px #00000059;
+    height: 133px;
+    width: 133px;
+}
+.s4{
+    background-color: white;
+    box-shadow:2px 2px 2px 2px red ;
+    height: 133px;
+    width: 133px;
+}
+.s5{
+    background-color: white;
+    box-shadow:5px 5px 5px 5px  ;
+    height: 133px;
+    width: 133px;
+}
+.s6{
+    background-color: white;
+    box-shadow:5px 5px 5px 5px rgb(103, 102, 101) ;
+    height: 133px;
+    width: 133px;
+}
+.s7{
+    background-color: white;
+    box-shadow:-5px -5px 5px 5px blue ;
+    height: 133px;
+    width: 133px;
+}
+.s8{
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px slategray;
+    height: 133px;
+    width: 133px;
+}
+.ota{
+    display: flex;
+    gap: 40px;
+    /* flex-wrap: wrap; */
+    /* gap: 40px;s */
+    
+
+}
+.soyalar-ota{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
